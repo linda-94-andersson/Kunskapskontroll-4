@@ -1,0 +1,108 @@
+/* Muilty use css */
+h1,
+h2 {
+  color: var(--title-darkred);
+}
+
+section h2 {
+  color: var(--text-dark);
+}
+
+header {
+  background: linear-gradient(
+      119deg,
+      black 0%,
+      black 25%,
+      white 25%,
+      white 100%
+    )
+    no-repeat fixed;
+  border-bottom: var(--border-medium-red);
+}
+
+a {
+  color: var(--text-dark);
+}
+
+a:hover,
+a:active {
+  color: var(--link-red);
+}
+
+footer {
+  background-color: var(--background-light);
+  border-top: var(--border-medium-red);
+}
+
+.header-title {
+  text-shadow: var(--text-shadow-small);
+}
+/* End of muilty use css */
+
+/* index.html */
+.home-background {
+  background: linear-gradient(
+      119.5deg,
+      white 0%,
+      white 50%,
+      black 50%,
+      black 100%
+    )
+    no-repeat fixed;
+}
+
+.home-nav {
+  color: var(--text-light);
+  text-shadow: var(--text-shadow-medium);
+}
+
+.main-nav {
+  background-color: rgb(136, 29, 29, 0.5);
+  border: var(--border-normal-black);
+}
+/* End of index.html */
+
+/* experience.html */
+iframe {
+  border: var(--border-normal-black);
+}
+
+.exp-background {
+  background-color: rgb(231, 231, 231);
+}
+/* End of experience.html */
+
+/* contact.html */
+label {
+  color: var(--text-light);
+}
+
+input[type="submit"] {
+  color: var(--text-light);
+  background-color: var(--background-dark);
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: rgb(29, 29, 29);
+  outline: 1px solid white;
+  outline-offset: -5px;
+}
+
+.form-section {
+  background-color: #650000;
+}
+
+.contact-title {
+  color: var(--text-light);
+}
+
+.contact-background {
+  background-color: var(--text-light);
+}
+
+.socialmedia-section {
+  background-color: rgb(231, 231, 231);
+  border: var(--border-small-red);
+}
+/* End of contact.html */

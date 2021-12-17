@@ -1,0 +1,147 @@
+/* Muilty css */
+:root {
+  --googlefont: "Yeseva One", cursive;
+  --fontsize-small: 1rem;
+  --fontsize-medium: 1.5rem;
+  --fontsize-large: 2rem;
+  --fontsize-extra-large: 2.5rem;
+  --fontsize-bold: 700;
+}
+
+h1 {
+  font-family: var(--googlefont);
+  font-size: var(--fontsize-extra-large);
+}
+
+h2 {
+  font-family: var(--googlefont);
+  font-size: var(--fontsize-medium);
+}
+
+h3 {
+  font-family: var(--googlefont);
+  font-size: var(--fontsize-large);
+  text-transform: capitalize;
+}
+
+a {
+  font-size: var(--fontsize-small);
+  font-family: var(--googlefont);
+  font-weight: var(--fontsize-bold);
+}
+footer {
+  font-size: var(--fontsize-large);
+  font-weight: var(--fontsize-bold);
+  text-transform: uppercase;
+}
+/* End of muilty css */
+
+/* index.html */
+.main-title {
+  font-family: var(--googlefont);
+  line-height: 10rem;
+  writing-mode: vertical-lr;
+}
+
+.home-nav {
+  font-size: var(--fontsize-extra-large);
+  font-weight: var(--fontsize-bold);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-nav ul {
+  text-align: end;
+}
+/* End of index.html */
+
+/* experience.html */
+.mobile-frames,
+.desktop-frames {
+  text-align: center;
+}
+/* End of experience.html */
+
+/* contact.html */
+label {
+  font-weight: var(--fontsize-bold);
+  font-size: var(--fontsize-medium);
+}
+
+input,
+textarea {
+  font-size: var(--fontsize-small);
+}
+
+input[type="submit"] {
+  font-size: var(--fontsize-small);
+  font-weight: var(--fontsize-bold);
+  font-family: var(--googlefont);
+  text-transform: uppercase;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.socialmedia-title,
+.contact-title {
+  text-align: center;
+  font-family: var(--googlefont);
+  font-size: var(--fontsize-large);
+}
+/* End of contact.html */
+
+/* Muilty css */
+@media (min-width: 1024px) {
+  a {
+    font-size: var(--fontsize-large);
+  }
+  h2 {
+    font-size: var(--fontsize-extra-large);
+  }
+}
+
+/* index.html */
+@media (min-width: 1024px) {
+  .main-title {
+    font-size: 5rem;
+    text-orientation: upright;
+  }
+  .home-nav {
+    font-size: 4rem;
+  }
+}
+
+/* contact.html */
+@media (min-width: 1700px) {
+  label {
+    font-size: var(--fontsize-large);
+  }
+  input,
+  textarea {
+    font-size: var(--fontsize-medium);
+  }
+  input[type="submit"] {
+    font-size: var(--fontsize-medium);
+  }
+  .contact-title {
+    font-size: var(--fontsize-extra-large);
+  }
+}
+
+@media (min-width: 1024px) {
+  label {
+    font-size: var(--fontsize-medium);
+  }
+  input,
+  textarea {
+    font-size: var(--fontsize-medium);
+  }
+  input[type="submit"] {
+    font-size: var(--fontsize-medium);
+  }
+  .contact-title {
+    font-size: var(--fontsize-large);
+  }
+}

@@ -1,0 +1,21 @@
+.header-nav ul {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  h1 {
+    align-self: center;
+  }
+  li {
+    padding: var(--simpel-padding);
+  }
+  .header-nav ul {
+    display: flex;
+  }
+}

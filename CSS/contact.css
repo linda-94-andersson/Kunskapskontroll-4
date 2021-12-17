@@ -1,0 +1,35 @@
+figure {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img[alt="Linda Andersson"] {
+  border-radius: 50%;
+  width: 20vw;
+}
+
+.socialmedia-title {
+  padding: var(--simpel-padding);
+}
+
+.socialmedia-section {
+  display: flex;
+  padding: var(--simpel-padding);
+  margin-bottom: 3em;
+}
+
+@media (min-width: 1024px) {
+  figure,
+  img[alt="Linda Andersson"] {
+    width: 10vw;
+  }
+
+  .socialmedia-section {
+    margin-bottom: 0;
+    height: 20vh;
+    padding: 2em;
+  }
+}

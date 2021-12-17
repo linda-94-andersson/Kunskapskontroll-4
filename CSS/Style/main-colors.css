@@ -1,0 +1,14 @@
+:root {
+  --background-light: white;
+  --background-dark: black;
+  --border-normal-black: 1px solid black;
+  --border-medium-red: 2px solid rgb(136, 29, 29);
+  --border-small-red: 1px solid rgb(136, 29, 29);
+  --title-darkred: #650000;
+  --text-shadow-small: 0 0 1px black;
+  --text-shadow-medium: 0 0 2px black;
+  --link-red: rgb(136, 29, 29);
+  --link-grey: rgb(65, 63, 63);
+  --text-light: white;
+  --text-dark: black;
+}

@@ -1,0 +1,29 @@
+iframe {
+  width: 85vw;
+  height: 70vh;
+}
+
+.desktop-frames {
+  display: none;
+}
+
+.mobile-frames {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding: 1em 1.7em;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 1024px) {
+  .desktop-frames {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5em;
+    padding: 1em 1.7em;
+    margin-top: 4.5em;
+  }
+  .mobile-frames {
+    display: none;
+  }
+}

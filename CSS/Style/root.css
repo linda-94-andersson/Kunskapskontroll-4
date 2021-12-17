@@ -1,0 +1,16 @@
+:root {
+  --simpel-padding: 1em;
+}
+
+* {
+  margin: 0 auto;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
