@@ -1,3 +1,3 @@
 # Kunskapskontroll-4
 
-https://kunskapskontroll-4.netlify.app/html/
+https://kunskapskontroll-4.netlify.app
