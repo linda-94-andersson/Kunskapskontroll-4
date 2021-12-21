@@ -39,6 +39,43 @@ footer {
 }
 /* End of muilty use css */
 
+/* Header css */
+.navbar-menu {
+  background-color: var(--background-light);
+  border-bottom: var(--border-normal-black);
+}
+
+.menu-listing li a {
+  background-color: var(--background-light);
+  color: var(--link-red);
+}
+
+.menu-listing li a:hover {
+  background-color: #262626;
+  color: var(--text-light);
+}
+
+.menu {
+  background-color: var(--background-light);
+}
+
+.menu span {
+  background-color: var(--background-dark);
+}
+
+.menu span:before {
+  background-color: var(--background-dark);
+}
+
+.menu span:after {
+  background-color: var(--background-dark);
+}
+
+.menu.active span {
+  background-color: transparent;
+}
+/* End of header css */
+
 /* index.html */
 .home-background {
   background: linear-gradient(

@@ -36,6 +36,19 @@ footer {
 }
 /* End of muilty css */
 
+/* Header css */
+.navbar-menu .menu-listing {
+  text-align: left;
+}
+
+.menu-listing li a {
+  font-size: var(--fontsize-small);
+  line-height: 2em;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+/* End of header css */
+
 /* index.html */
 .main-title {
   font-family: var(--googlefont);
