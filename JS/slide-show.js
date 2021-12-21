@@ -8,6 +8,6 @@ $(document).ready(function () {
         slidestoShow: 5,
         slidesToScroll: 1,
         accessibility: true,
-        draggable: true, 
+        draggable: true
     });
 });

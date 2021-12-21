@@ -111,6 +111,15 @@ iframe {
 }
 /* End of experience.html */
 
+/* Experience-details.html css */
+.slick-next:before,
+.slick-next:after,
+.slick-prev:before,
+.slick-prev:after {
+  color: var(--text-dark) !important;
+}
+/* End of experience-details.html css */
+
 /* contact.html */
 label {
   color: var(--text-light);

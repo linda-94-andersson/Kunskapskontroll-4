@@ -15,13 +15,6 @@ section {
   width: 50vw;
 }
 
-.slick-next:before,
-.slick-next:after,
-.slick-prev:before,
-.slick-prev:after {
-  color: black !important;
-}
-
 @media (min-width: 1024px) {
   body {
     margin-top: 4.6em;
