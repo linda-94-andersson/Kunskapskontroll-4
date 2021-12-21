@@ -57,6 +57,8 @@ footer {
 
 .menu {
   background-color: var(--background-light);
+  border-left: var(--border-normal-black);
+  border-bottom: var(--border-normal-black);
 }
 
 .menu span {

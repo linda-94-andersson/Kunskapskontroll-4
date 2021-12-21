@@ -1,9 +1,29 @@
-p {
-  color: red;
-  margin-top: 5em;
-  padding: 2em;
+body {
+  margin-top: 2em;
 }
 
-span {
-  display: block;
+h2 {
+  display: flex;
+  padding: var(--simpel-padding);
+}
+
+section {
+  padding: var(--simpel-padding);
+}
+
+.slide-show {
+  width: 50vw;
+}
+
+.slick-next:before,
+.slick-next:after,
+.slick-prev:before,
+.slick-prev:after {
+  color: black !important;
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin-top: 4.6em;
+  }
 }
