@@ -112,6 +112,11 @@ iframe {
 /* End of experience.html */
 
 /* Experience-details.html css */
+.details-main {
+  background-color: rgb(231, 231, 231);
+  border-bottom: var(--border-normal-black);
+}
+
 .slick-next:before,
 .slick-next:after,
 .slick-prev:before,

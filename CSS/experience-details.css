@@ -1,5 +1,5 @@
-body {
-  margin-top: 2em;
+main {
+  padding-bottom: 100%;
 }
 
 h2 {
@@ -18,5 +18,11 @@ section {
 @media (min-width: 1024px) {
   body {
     margin-top: 4.6em;
+  }
+}
+
+@media (min-height: 600px) {
+  main {
+    padding-bottom: 0;
   }
 }
