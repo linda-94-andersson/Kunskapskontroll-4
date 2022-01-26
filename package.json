@@ -1,0 +1,27 @@
+{
+  "name": "kunskapskontroll-4",
+  "version": "1.0.0",
+  "description": "https://kunskapskontroll-4.netlify.app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linda-94-andersson/Kunskapskontroll-4.git"
+  },
+  "keywords": [],
+  "author": "Linda Andersson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linda-94-andersson/Kunskapskontroll-4/issues"
+  },
+  "homepage": "https://github.com/linda-94-andersson/Kunskapskontroll-4#readme",
+  "dependencies": {
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1",
+    "snowpack": "^3.8.8"
+  }
+}
